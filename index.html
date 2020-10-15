@@ -1,0 +1,298 @@
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="css/materialize.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <script src="https://kit.fontawesome.com/70f35602e5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+
+    <style>
+
+
+      .slider .indicators .indicator-item.active {
+        background-color: #1de9b6 !important;
+      }
+      .card-fondo{
+        background: #009688; 
+        color: white;
+      }
+      .card-fondo i{
+        font-size: 110px;
+      }
+      .card-fondo:hover{
+        background: white;
+        color: #009688;
+      }
+    </style>
+
+
+  </head>
+
+  <body>
+    <nav class="teal"> 
+      <div class="container"> 
+        <div class="nav-wrapper ">
+          <a href="#" class="brand-logo">Clinica S. Santa Anita</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down ">
+              
+            <li>
+              <a href="#" class="white-text dropdown-trigger" data-target="dropdown1"><i style="margin-left: 0px;" class="material-icons right">expand_more</i>Medicos
+              </a>
+            </li>
+           
+            <li>
+              <a href="#" class="white-text dropdown-trigger" data-target="dropdown2">
+              <i style="margin-left: 0px;" class="material-icons right">expand_more</i>Especialidades</a>
+            </li>
+            <li><a href="#" class="white-text">Servicios</a></li>
+            <li><a href="#" class="white-text">Nosotros</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- Dropdown Trigger -->
+      <!-- Dropdown Structure -->
+      <ul id='dropdown1' class='dropdown-content'>
+        <li><a href="#!">Medico 1</a></li>
+        <li><a href="#!">Medico 2</a></li>
+        <li class="divider" tabindex="-1"></li>
+        <li><a href="#!">Medico 3</a></li>
+        <li><a href="#!"><i class="material-icons right">person</i>Medico 4</a></li>
+        <li><a href="#!"><i class="material-icons right">person</i>Medico 5</a></li>
+      </ul>
+      <ul id='dropdown2' class='dropdown-content'>
+        <li><a href="#!">Especialidad 1</a></li>
+        <li><a href="#!">Especialidad 2</a></li>
+        <li class="divider" tabindex="-1"></li>
+        <li><a href="#!">Especialidad 3</a></li>
+        <li><a href="#!"><i class="material-icons right">people</i>Especialidad 4 &nbsp;</a></li>
+        <li><a href="#!"><i class="material-icons right">people</i>Especialidad 5 &nbsp;</a></li>
+      </ul>   
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="#" class="black-text">Servicios</a></li>
+      <li><a href="#" class="black-text">Nosotros</a></li>
+      <li><a href="#" class="black-text">Link</a></li>
+      <li><a href="#" class="black-text">Link</a></li>
+    </ul>
+
+
+
+      <a href="https://api.whatsapp.com/send?phone=51973972548&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre." 
+      class="float" target="_blank">
+      <i class="fab fa-whatsapp"></i>
+      </a>  
+
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img src="img/pa5.jpg"> <!-- random image -->
+          <div class="caption center-align">
+            <h3>This is our big Tagline!</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div>
+        </li>
+        <li>
+          <img src="img/pa6.jpg"> <!-- random image -->
+          <div class="caption left-align">
+            <h3>Left Aligned Caption</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div>
+        </li>
+        <li>
+          <img src="img/pa7.jpg"> <!-- random image -->
+          <div class="caption right-align">
+            <h3>Right Aligned Caption</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div>
+        </li>
+        <li>
+          <img src="img/pa8.jpg"> <!-- random image -->
+          <div class="caption center-align">
+            <h3>This is our big Tagline!</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="row">
+        <div>
+          <h3 class="center-align teal-text">Especialidades</h3>
+        </div>
+
+        <div class="col s12 m3 ">
+          <div class="card-panel  center-align hoverable card-fondo">
+            <h5 class="">Cardiología</h5>
+            <br>
+            <i class="fas fa-heartbeat"></i>
+          </div>
+        </div>
+        <div class="col s12 m3">
+          <div class="card-panel  center-align hoverable card-fondo">
+            <h5 class="">Oftalmología</h5>
+            <br>
+            <i class="fas fa-eye"></i>
+          </div>
+        </div>
+        <div class="col s12 m3">
+          <div class="card-panel  center-align hoverable card-fondo">
+            <h5 class="">Odontología</h5>
+            <br>
+            <i class="fas fa-tooth"></i>
+          </div>
+        </div>
+        <div class="col s12 m3">
+          <div class="card-panel  center-align hoverable card-fondo">
+            <h5 class="">Pediatría</h5>
+            <br>
+            <i class="fas fa-baby"></i>
+          </div>
+        </div>
+        <div class="col s12 m8 offset-m2">
+          <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/yKfWVSEke-Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<div class="card-panel cyan lighten-4 center-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.n  ”</div>
+
+     <div class="container">
+       <div class="row">
+          <div class="col s12 m4">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/doc2.jpg">
+                <span class="card-title black-text">Doctor</span>
+              </div>
+              <div class="card-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/doc3.jpg">
+                <span class="card-title black-text">Doctor</span>
+              </div>
+              <div class="card-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/doc1.jpg">
+                <span class="card-title black-text">Doctor</span>
+              </div>
+              <div class="card-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+     </div>
+
+
+
+
+
+
+
+    <footer class="page-footer teal">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Clinica Solidaridad Santa Anita</h5>
+            <p class="grey-text text-lighten-4">Numero de contacto: 9999999.</p>
+            <p class="grey-text text-lighten-4">Correo: ejemplo@gmail.com</p>
+            <p class="grey-text text-lighten-4">Telefono: 4444444</p>
+            <p class="grey-text text-lighten-4">Direccion: AV. aaaaaaaaaaaa</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Links</h5>
+            <ul>
+              <p><a class="grey-text text-lighten-3" href="#!">Quienes somos</a></p>
+              <p><a class="grey-text text-lighten-3" href="#!">Sedes</a></p>
+              <p><a class="grey-text text-lighten-3" href="#!">Directorio Médico</a></p>
+              <p><a class="grey-text text-lighten-3" href="#!">Convenios de salud</a></p>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        © 2020 Copyright Text
+        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="js/materialize.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems,);
+
+
+        var elems = document.querySelectorAll('.dropdown-trigger');
+        var instances = M.Dropdown.init(elems,{
+
+          alignment: 'Left',
+          constrainWidth: false,
+          coverTrigger: false,
+          hover: true,
+
+        });
+
+        var elems = document.querySelectorAll('.slider');
+        var instances = M.Slider.init(elems,{
+          indicators: true,
+          height: 400,
+          duration: 400,
+          interval: 9000,
+
+        });
+      });
+      
+    </script>
+  </body>
+</html>
